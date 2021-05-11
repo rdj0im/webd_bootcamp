@@ -13,7 +13,7 @@ body {
 }
 .searchbox {
   position: relative;
-  /* width: 50%; */
+
   max-width: 584px;
   padding: 5px;
   margin: 0px auto;
@@ -38,38 +38,23 @@ body {
   min-height: 150px;
   max-height: 290px;
   height: calc(100% - 560px);
-  /* height: 200px; */
-  /*min-height: 200px;
-  max-height: 290px; */
-  /* height: 100%; */
   position: relative;
-  /* background: #202124; */
-  /* border: 1px solid black; */
 }
 .logo {
-  /* border: inherit; */
   position: absolute;
   bottom: 0px;
-  /* background: #1a0dad; */
   width: 100%;
 }
 .google_logo {
-  /* border: inherit; */
   width: fit-content;
   margin: 0px auto;
-  /* background: #1a73e8; */
   padding: 20px;
-
-  /* position: absolute;
-  bottom: 0px; */
-  /* left: calc(50%-136px); */
 }
 .buttons > .btn {
   margin: 5px;
   padding: 10px 15px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  /* margin: 20px auto; */
 }
 .grp1,
 .grp2 {
@@ -79,9 +64,6 @@ body {
   padding: 10px 0px;
   margin: 10px 5px;
   vertical-align: middle;
-
-  /* background-color: #f8f9fa; */
-  /* border: 1px solid #f8f9fa; */
 }
 
 .languages {
@@ -108,15 +90,12 @@ body {
   color: #9aa0a6;
   height: 20px;
   width: 20px;
-  /* padding: 5px; */
   margin: 5px;
   fill: currentColor;
 }
 #mike {
-  /* text-align: right; */
   height: 24px;
   width: 24px;
-  /* padding: 5px; */
   margin: 5px;
   position: absolute;
   right: 5px;
