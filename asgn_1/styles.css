@@ -63,9 +63,7 @@ a {
   text-decoration: none;
 }
 #box1 {
-  background-color: rgba(245, 245, 245, 0.653);
   padding: 15px;
-  color: black;
 }
 @media screen and (min-width: 992px) {
   #img1 {
