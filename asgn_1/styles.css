@@ -7,39 +7,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
 }
-/* div {
-  margin: 10px;
-} */
 h1 {
   font-size: 180%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
   border-radius: 5px;
   color: black;
-  background-color: rgb(255, 129, 11);
+  background-color: lawngreen;
   margin: 10px;
   text-align: center;
   padding: 10px 70px;
 }
 h4 {
-  background-color: rgb(255, 129, 11);
+  background-color: lawngreen;
   font-size: 130%;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
-  /* border: 0px solid white; */
   border-radius: 4px;
   padding: 8px;
   width: 100%;
-  /* height: fit-content; */
   text-align: center;
-  /* border-width: 0px 0px 1px 0px; */
   margin: 25px 0px 5px 0px;
 }
 img {
-  /* margin: 0px 0px 0px 30px; */
   width: 342px;
-  /* margin: 0px auto; */
 }
 .main_content {
   text-align: justify;
@@ -65,34 +56,31 @@ a {
 #box1 {
   padding: 15px;
 }
-  #img1 {
-    float: right;
-    padding: 0px 10px 0px 40px;
-    /* width: 30%; */
-  }
-  #top {
-    height: 400px;
-  }
-  .box2 {
-    float: left;
-    width: 65%;
-    padding: 10px;
-    position: relative;
-  }
-  .box3 {
-    background-color: rgba(240, 255, 255, 0.802);
-    /* height: max-content; */
-  }
-  #links {
-    width: 35%;
-  }
-  #pt1 {
-    float: left;
-    position: relative;
-    left: 10px;
-  }
-  #pt2 {
-    float: left;
-    position: absolute;
-    right: 5px;
-  }
+#img1 {
+  float: right;
+  padding: 0px 10px 0px 40px;
+}
+#top {
+  height: 400px;
+}
+.box2 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  position: relative;
+}
+.box3 {
+  background-color: rgba(240, 255, 255, 0.802);
+}
+#links {
+  width: 35%;
+}
+.ptwrp {
+  width: 50%;
+  float: left;
+  clear: right;
+}
+.pt {
+  width: fit-content;
+  margin: 0px 100px;
+}
