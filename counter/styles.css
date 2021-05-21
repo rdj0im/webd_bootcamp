@@ -48,8 +48,9 @@ body {
 #reset {
   display: block;
   border-radius: 8px;
+  font-size: 1.5em;
   width: 200px;
-  height: fit-content;
+  height: 60px;
   padding: 15px;
   margin: 20px auto;
 }
