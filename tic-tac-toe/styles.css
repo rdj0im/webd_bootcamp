@@ -1,0 +1,106 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  padding: 10px;
+  padding-top: 50px;
+}
+.mid-col {
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.wrp {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.criss{
+  width: 90%;
+  margin: 0 auto;}
+.col-4{
+  padding: 0px;
+  margin: 0px;
+  padding-top: calc((100%/3));
+  position: relative;
+}
+.middle>.col-4{
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding-top: calc(( 100% / 3 ) - 8px);
+}
+.cell{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 7em;
+  line-height: 0.1em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(115, 51, 251);
+}
+#cross{
+  position: absolute;
+  text-align: center;
+  font-size: 7em;
+  line-height: 8rem;
+  left: 0px;
+  color: rgb(240, 248, 255);
+  font-family: 'Times New Roman', Times, serif;
+}
+.options{
+  height: 100%;
+}
+#msg{
+  font-family:sans-serif;
+  font-weight: 900;
+}
+button{
+  margin: 5px 0px;
+}
+#reset{
+  display: block;
+  margin: 20px 0px;
+  padding: 10px 50px;
+  font-weight: 500;
+}
+
+.col-sm-8,.col-sm-4{
+  margin: 20px 0px;
+}
+#cross>div{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+  @media (min-width:992px) {
+    .criss {
+      width: 55%;
+    }
+  }
+  @media (min-width:576px) {
+    .choice{
+      position: absolute;
+      top: 50%;
+      transform: translate(0%,-50%);
+    } 
+  }
+  @media (max-width:576px){
+  .cell{
+    font-size: 25vw;
+  }
+  #cross{
+    font-size: 26vw;
+    line-height: 35vw;
+  }
+  .options{
+    margin: 60px 10px;
+    text-align: center;
+  }
+  #reset{
+    margin: 20px auto;
+  }
+}
