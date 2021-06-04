@@ -14,10 +14,10 @@ function seto(){
 }
 function move(e){
     if (!count) Array.from(document.getElementsByClassName("btn-dark")).forEach(e=>e.disabled = true);
-    count++;
     let id=e.currentTarget.id;
     let k=parseInt(id)-1,i=parseInt(k/3),j=k%3;
     if(!arr[i][j]){
+        count++;
         arr[i][j]=c;
         document.getElementById(id).firstElementChild.innerText=c;
         let r=check_win(c);
